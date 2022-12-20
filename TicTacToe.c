@@ -1,4 +1,3 @@
-//Written by Basile Junior in December 2022
 #include <stdio.h>
 #include <stdlib.h>
 #include <windows.h>
@@ -405,7 +404,7 @@ void text(int x, int y, int c)
         gotoxy(x,y+2);printf("   ##    ## ##          ##     ##  ##   ##          ##    ##    ##  ####### ");
         gotoxy(x,y+3);printf("   ##    ## ##          ##    ########  ##          ##    ##    ##  ##       ");
         gotoxy(x,y+4);printf("   ##    ##  #####      ##   ##      ##  #####      ##    ########  ####### ");
-        gotoxy(x+77,y+4);printf("by_Mexico (ING 2 FR)");
+        gotoxy(x+77,y+4);printf("by_bslik01");
     }
     else if (c == 0)
     {
